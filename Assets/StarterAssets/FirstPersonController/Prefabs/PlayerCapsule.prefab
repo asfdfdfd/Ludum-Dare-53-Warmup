@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9133014294170419507}
   - component: {fileID: 2269298528328542802}
+  - component: {fileID: 1302002198766885731}
   m_Layer: 8
-  m_Name: NotebookTrigger
+  m_Name: NotebookTriggerController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755546975961141487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0.94}
+  m_LocalPosition: {x: 0.45, y: 0.67, z: 1.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42,10 +43,22 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 0.9521877
+  m_Height: 1.9043754
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -0.45218772, y: -0.000000059604645, z: 0}
+--- !u!114 &1302002198766885731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755546975961141487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5111057940f04d8cb03931d1ca5bb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4135013735270702863
 GameObject:
   m_ObjectHideFlags: 0
